@@ -7,16 +7,26 @@ The Laravel Blog Application is a web application built with Laravel framework, 
 
 To install and set up the Laravel Blog Application, follow these steps:
 
-1. Clone the repository to your local machine:
+Clone the repository to your local machine or download zip file:
    ```bash
    git clone https://github.com/Antoromna/annexmed_project.git
 
-After cloning the repository, navigate to the project directory:
-cd annexmed_project
+Make a copy of .env.example as .env
 
-Create the database table and set that in env file.
+After cloning the repository, navigate to the project directory:
+#  cd annexmed_project
+
+Run:
+#  composer install
+
+Create the database table name and set that in .env file.
 
 Run database migrations:
-php artisan migrate
+#  php artisan migrate
+
+Run:
+#  npm install
+#  npm run build
+#  php artisan serve
 
 This will start a development server, and you can access the application by navigating to http://localhost:8000 in your web browser.
